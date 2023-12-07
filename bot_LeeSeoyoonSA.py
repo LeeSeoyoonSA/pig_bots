@@ -3,5 +3,4 @@ def choice(round_score, my_score, opponent_score):
         return round_score <= 21
     elif opponent_score < 70 and my_score < 70:
         return round_score <= 10
-    else:
-        return True
+    return round_score <= 15
